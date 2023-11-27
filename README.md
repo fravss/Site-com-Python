@@ -1,0 +1,1 @@
+# Projeto-final---Triagem-M-dica
