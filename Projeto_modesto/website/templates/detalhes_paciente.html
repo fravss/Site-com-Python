@@ -8,6 +8,7 @@
     <p>Idade: {{ paciente.idade }}</p>
 
     {% for atendimento in atendimentos %}
+      <p>{{ atendimento.data_atendimento }}</p>
       <p>Temperatura: {{ atendimento.temperatura }}</p>
       <p>Pressão: {{ atendimento.pressao }}</p>
 
@@ -40,5 +41,6 @@
           <button type="submit" class="btn btn-success btn-sm">Atendido</button>
         </form>
       {% endif %}
+      <br/>
   {% endfor %}
 {% endblock %}
