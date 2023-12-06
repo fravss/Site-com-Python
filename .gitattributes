@@ -1,1 +1,3 @@
-*.html linguist-language=Python
+base.html linguist-language=Python
+home.html linguist-language=Python
+
